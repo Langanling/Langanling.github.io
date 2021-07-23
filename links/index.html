@@ -8,7 +8,7 @@
 <head>
   <meta charset="UTF-8">
   <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
-  <link rel="icon" href="/img/favicon.png">
+  <link rel="icon" href="https://pic.imgdb.cn/item/60faa3f75132923bf8e701f0.png">
   <meta name="viewport"
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -153,8 +153,7 @@
   </div>
 </nav>
 
-    <div class="banner" id="banner" parallax=true
-         style="background: url('https://pic.imgdb.cn/item/60fa7f475132923bf880e5c3.jpg') no-repeat center center;
+    <div class="banner" id="banner" parallax=true style="background: url('https://pic.imgdb.cn/item/60fa7f475132923bf880e5c3.jpg') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
@@ -174,14 +173,14 @@
 
   <main>
     
-      <div class="container nopadding-x-md">
-        <div class="py-5" id="board"
-          >
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
-                
+    <div class="container nopadding-x-md">
+      <div class="py-5" id="board"
+        >
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-10 m-auto">
+              
 
 <div class="row links">
   
@@ -205,17 +204,17 @@
   
     
     <div class="card col-lg-4 col-md-6 col-sm-12">
-      <a href="https://hexo.fluid-dev.com/docs/" class="card-body hover-with-bg" target="_blank" rel="noopener">
+      <a href="https://wenchong.space" class="card-body hover-with-bg" target="_blank" rel="noopener">
         <div class="card-content">
           
             <div class="link-avatar my-auto">
-              <img src="/img/favicon.png" srcset="/img/loading.gif" lazyload alt="Fluid Docs"
+              <img src="https://gitee.com/Langwenchong/figure-bed/raw/master/author.jpeg" srcset="/img/loading.gif" lazyload alt="雨中的博客"
                    onerror="this.onerror=null; this.src=this.srcset='/img/avatar.png'"/>
             </div>
           
           <div class="link-text">
-            <div class="link-title">Fluid Docs</div>
-            <div class="link-intro">主题使用指南</div>
+            <div class="link-title">雨中的博客</div>
+            <div class="link-intro">频繁记录，只因生活和你太值得❤</div>
           </div>
         </div>
       </a>
@@ -223,17 +222,17 @@
   
     
     <div class="card col-lg-4 col-md-6 col-sm-12">
-      <a href="https://github.com/fluid-dev/hexo-theme-fluid" class="card-body hover-with-bg" target="_blank" rel="noopener">
+      <a href="https://pengpenglang.vip" class="card-body hover-with-bg" target="_blank" rel="noopener">
         <div class="card-content">
           
             <div class="link-avatar my-auto">
-              <img src="/img/favicon.png" srcset="/img/loading.gif" lazyload alt="Fluid Repo"
+              <img src="https://pengpenglang.vip/img/avatar.jpg" srcset="/img/loading.gif" lazyload alt="pengpenglang&#39;s blog"
                    onerror="this.onerror=null; this.src=this.srcset='/img/avatar.png'"/>
             </div>
           
           <div class="link-text">
-            <div class="link-title">Fluid Repo</div>
-            <div class="link-intro">主题 GitHub 仓库</div>
+            <div class="link-title">pengpenglang's blog</div>
+            <div class="link-intro">一切皆可期，一切皆所能</div>
           </div>
         </div>
       </a>
@@ -242,24 +241,29 @@
 </div>
 
 
+  <!-- Custom -->
+  <div class="custom mx-auto">
+    <hr><p>在下方留言申请加入我的友链，按如下格式提供信息：</p><ul><li>博客名：苍狼人生的博客</li><li>简介：书痴者文必工，艺痴者技必良</li><li>链接：https://langanling.github.io</li><li>图片：https://pic.imgdb.cn/item/60faa3b45132923bf8e65fd8.jpg</li></ul>
+  </div>
 
 
 
-              </div>
+
             </div>
           </div>
         </div>
       </div>
+    </div>
     
 
     
-      <a id="scroll-top-button" href="#" role="button">
-        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
-      </a>
+    <a id="scroll-top-button" href="#" role="button">
+      <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+    </a>
     
 
     
-      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+    <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
      aria-hidden="true">
   <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
     <div class="modal-content">
@@ -318,6 +322,19 @@
   
 
   
+  <p id="time"></p>
+  <script>
+    setInterval(function(){
+      var BirthDay = new Date(new Date('2020-10-23'));
+      var today = new Date();
+      var timeold = (today.getTime() - BirthDay.getTime());
+      var daysold = Math.floor(timeold / (24 * 60 * 60 * 1000));
+      var hoursold=Math.floor((timeold - daysold * (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minsold=Math.floor((timeold - daysold * (1000 * 60 * 60 * 24) - hoursold * (1000 * 60 * 60)) / (1000 * 60));
+      var secsold=Math.floor((timeold - daysold * (1000 * 60 * 60 * 24) - hoursold * (1000 * 60 * 60) - minsold * (1000 * 60)) / 1000);
+      document.getElementById('time').innerHTML = "🌹 我已于此等候你  "+daysold+" 天 " +hoursold+ " 时 "+minsold+" 分 "+secsold+" 秒 🌹";
+      },1000)
+  </script>
   <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.3/css/all.css" rel="stylesheet">
   <style>
     .github-badge {
@@ -493,6 +510,60 @@
 <!-- 主题的启动项 保持在最底部 -->
 <script  src="/js/boot.js" ></script>
 
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/Langwenchong/cdn/js/circleMagic.min.js"></script>
+  <script>
+    $('#banner').circleMagic({
+      radius: 5,
+      density: .1,
+      color: 'rgba(255,255,255, .4)',
+      clearOffset: .7
+    });
+  </script>
+  <div id="aplayer"></div>
+  <style>
 
+
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css"
+    integrity="sha512-CIYsJUa3pr1eoXlZFroEI0mq0UIMUqNouNinjpCkSWo3Bx5NRlQ0OuC6DtEB/bDqUWnzXc1gs2X/g52l36N5iw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.js"
+    integrity="sha512-RWosNnDNw8FxHibJqdFRySIswOUgYhFxnmYO3fp+BgCU7gfo4z0oS7mYFBvaa8qu+axY39BmQOrhW3Tp70XbaQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    const ap = new APlayer({
+      container: document.getElementById('aplayer'),
+      mini: true,
+      fixed: true,
+      autoplay: false,
+      theme: '#FADFA3',
+      loop: 'all',
+      order: 'list',
+      preload: 'auto',
+      volume: 0.7,
+      mutex: true,
+      listFolded: false,
+      listMaxHeight: 90,
+      audio: [
+        {
+          name: '月夜小半曲',
+          artist: '陈慧娴',
+          url: 'http://m10.music.126.net/20210723202308/74fd884d642800a68cfa5cfd4d554ff5/ymusic/ca89/95e8/9421/e07c4e03f097da4d3ecd784cc1432c9b.mp3',
+          cover: 'https://pic.imgdb.cn/item/60fa9f2c5132923bf8db7f05.jpg',
+          theme: '#46718b'
+        },
+        {
+          name: '海阔天空',
+          artist: '黄家驹',
+          url: 'http://m10.music.126.net/20210723202457/aa8f486c0d922abb1d827c8d613e8cc6/ymusic/76e5/ba34/d562/2e95d6640354faee9ef0d6a384d2bc5f.mp3',
+          cover: 'https://pic.imgdb.cn/item/60fa9d665132923bf8d74338.jpg',
+          theme: '#ebd0c2'
+        },
+      ]
+    });
+  </script>
+  <script src="/js/click.js"></script>
 </body>
+
 </html>

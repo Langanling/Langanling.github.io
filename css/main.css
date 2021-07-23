@@ -1987,3 +1987,14 @@ note-default {
     margin-left: 1rem;
   }
 }
+.scroll-down-bar .icon-arrowdown {
+  z-index: 999;
+}
+/*鼠标样式*/
+body {
+  cursor: url("https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur"), default !important;
+}
+a,
+img {
+  cursor: url("https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur"), default !important;
+}
