@@ -357,7 +357,7 @@ img[lazyload] {
   --post-link-color: #0366d6;
   --link-hover-color: #30a9de;
   --link-hover-bg-color: #f8f9fa;
-  --navbar-bg-color: #2f4154;
+  --navbar-bg-color: #222;
   --navbar-text-color: #fff;
 }
 @media (prefers-color-scheme: dark) {
@@ -1362,6 +1362,22 @@ mjx-container svg:focus,
   .index-header .index-pin {
     font-size: 1.25rem;
   }
+}
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #19b5fe;
+  background-image: -webkit-linear-gradient(45deg, rgba(255,255,255,0.4) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.4) 75%, transparent 75%, transparent);
+  border-radius: 2em;
+}
+.mask .page-header .h2 {
+  font-family: 'STXingkai';
+  font-size: 48px;
 }
 .post-content,
 post-custom {
